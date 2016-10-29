@@ -13,13 +13,23 @@ t
 % -------------------------------------------------------------------
 
 \begin{frame}[fragile]{Expressions with Mixed Variable Types (Type Casting)}
-t
+sometimes you want to change somthings type, this is called typecasting
+
+(float)5 = 5.0
+(int)5.0 = 5
+
+note when converting to a less precise type information is lost
+e.g. (int)5.1 = 5
+     (int)5.9 = 5
+
 \end{frame}
 
 % -------------------------------------------------------------------
 
 \begin{frame}[fragile]{Declaration and Initialization of Symbolic Constants}
-t
+#define MY_NUMBER 5
+
+in the code MY_NUMBER will now be replaced with 5
 \end{frame}
 
 % -------------------------------------------------------------------
